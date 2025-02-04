@@ -1538,10 +1538,13 @@ color: #C9C9C9;
     display: flex;
     align-items: center;
 }
+.text-content h1, .text-content p {
+    white-space: normal; /* Permite que o texto quebre naturalmente */
+}
 
 .text-content {
-    max-width: 600px;
     padding-left: 5%;
+    word-wrap: break-word; 
 }
 
 .text-content h1 {
@@ -1606,22 +1609,19 @@ color: #C9C9C9;
 
 @media screen and (max-width: 480px) {
     .text-content h1 {
-        max-width: 200px;
-        font-size: 1.5rem; /* Tamanho do título ainda menor em telas muito pequenas */
+        font-size: 1.3rem; /* Tamanho do título ainda menor em telas muito pequenas */
     }
 
     .text-content p {
-        max-width: 200px;
-        font-size: 0.9rem; /* Ajuste ainda maior no tamanho do texto */
+        font-size: 0.7rem; /* Ajuste ainda maior no tamanho do texto */
     }
 
     .cta-button {
         padding: 10px 15px; /* Reduz o tamanho do botão para telas muito pequenas */
-        font-size: 1rem; /* Ajuste no tamanho da fonte */
+        font-size: 0.8rem; /* Ajuste no tamanho da fonte */
     }
     .text-content ul li {
-        max-width: 200px;
-        font-size: 0.9rem; /* Reduz o tamanho da fonte dos itens da lista */
+        font-size: 0.7rem; /* Reduz o tamanho da fonte dos itens da lista */
         margin-bottom: 5px; /* Ajusta o espaçamento entre os itens da lista */
     }
 }
