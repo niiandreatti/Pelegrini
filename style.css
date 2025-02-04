@@ -1219,6 +1219,8 @@ body {
             flex: 1;
             padding: 10px;
             min-width: 250px;
+            text-decoration: none;
+            color: #fff;
         }
         
         .footer-divider {
@@ -1515,12 +1517,16 @@ color: #C9C9C9;
 
 .services-section {
     position: relative;
-    background: url('src/security.png') no-repeat center center/cover;
     height: 100vh;
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    
+}
+.services-section img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .overlay {
@@ -1532,11 +1538,11 @@ color: #C9C9C9;
     background: rgba(0, 0, 0, 0.5); /* Transparência escura para destacar o texto */
     display: flex;
     align-items: center;
-    padding: 0 5%;
 }
 
 .text-content {
     max-width: 600px;
+    padding-left: 5%;
 }
 
 .text-content h1 {
