@@ -1606,12 +1606,10 @@ color: #C9C9C9;
 
 @media screen and (max-width: 480px) {
     .text-content h1 {
-        max-width: 200px;
         font-size: 1.8rem; /* Tamanho do título ainda menor em telas muito pequenas */
     }
 
     .text-content p {
-        max-width: 200px;
         font-size: 0.9rem; /* Ajuste ainda maior no tamanho do texto */
     }
 
@@ -1620,7 +1618,6 @@ color: #C9C9C9;
         font-size: 1rem; /* Ajuste no tamanho da fonte */
     }
     .text-content ul li {
-        max-width: 200px;
         font-size: 0.9rem; /* Reduz o tamanho da fonte dos itens da lista */
         margin-bottom: 5px; /* Ajusta o espaçamento entre os itens da lista */
     }
