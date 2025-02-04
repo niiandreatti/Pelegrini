@@ -422,7 +422,7 @@ body {
                 font-size: 60px;
             }
             .arrows{
-                top: 10%;
+                top: 15%;
             }
             .thumbnail .item {
                 width: 120px;
@@ -489,6 +489,7 @@ body {
             text-align: center;
             word-wrap: break-word;
         }
+        
         
       
         @media screen and (max-width: 576px) {
@@ -1575,8 +1576,44 @@ color: #C9C9C9;
 .cta-button:hover {
     background-color: #002d6e; /* Azul mais escuro no hover */
 }
+@media screen and (max-width: 768px) {
+   
+    .text-content h1 {
+        font-size: 1.8rem; /* Reduz o tamanho do título em telas pequenas */
+    }
 
+    .text-content p {
+        font-size: 0.9rem; /* Reduz o tamanho do texto para melhorar a leitura */
+    }
 
+    .cta-button {
+        padding: 12px 20px; /* Ajusta o tamanho do botão */
+        font-size: 1rem; /* Reduz o tamanho da fonte do botão */
+    }
+    .text-content ul li {
+        font-size: 1rem; /* Ajusta o tamanho da fonte dos itens da lista */
+        margin-bottom: 8px; /* Ajusta o espaçamento entre os itens da lista */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text-content h1 {
+        font-size: 1.8rem; /* Tamanho do título ainda menor em telas muito pequenas */
+    }
+
+    .text-content p {
+        font-size: 0.9rem; /* Ajuste ainda maior no tamanho do texto */
+    }
+
+    .cta-button {
+        padding: 10px 15px; /* Reduz o tamanho do botão para telas muito pequenas */
+        font-size: 1rem; /* Ajuste no tamanho da fonte */
+    }
+    .text-content ul li {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte dos itens da lista */
+        margin-bottom: 5px; /* Ajusta o espaçamento entre os itens da lista */
+    }
+}
 
 
 /* Estilo para a seção de valores */

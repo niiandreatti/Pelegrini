@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function showProjects() {
         // Verifica se a seção está visível na tela
-        if (projectSection.getBoundingClientRect().top < window.innerHeight * 0.85) {
+        if (projectSection.getBoundingClientRect().top < window.innerHeight * 0.45) {
             projectSection.classList.add("ativo");
 
             // Anima os itens um a um com atraso progressivo
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (hasAnimated) return; // Se a animação já ocorreu, não repete.
 
         const rect = contatoSection.getBoundingClientRect();
-        if (rect.top < window.innerHeight * 0.75) {
+        if (rect.top < window.innerHeight * 0.45) {
             hasAnimated = true;
 
             // Anima a seção de contato com uma transição suave
@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function iniciarDigitacao() {
-        if (!digitando && contactSection.getBoundingClientRect().top < window.innerHeight * 0.85) {
+        if (!digitando && contactSection.getBoundingClientRect().top < window.innerHeight * 0.45) {
             digitando = true;
             digitarTexto(title, textoH2, () => {
                 paragraph.style.visibility = "visible"; // Torna o <p> visível
