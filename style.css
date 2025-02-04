@@ -423,6 +423,7 @@ body {
             }
             .arrows{
                 top: 15%;
+                justify-content: center;
             }
             .thumbnail .item {
                 width: 120px;
