@@ -1195,7 +1195,6 @@ body {
     }
 }
 
-
         .footer {
             background: #0B121D;
             color: #fff;
@@ -1588,12 +1587,10 @@ color: #C9C9C9;
 @media screen and (max-width: 768px) {
    
     .text-content h1 {
-        max-width: 300px;
         font-size: 1.8rem; /* Reduz o tamanho do título em telas pequenas */
     }
 
     .text-content p {
-        max-width: 300px;
         font-size: 0.9rem; /* Reduz o tamanho do texto para melhorar a leitura */
     }
 
@@ -1602,7 +1599,6 @@ color: #C9C9C9;
         font-size: 1rem; /* Reduz o tamanho da fonte do botão */
     }
     .text-content ul li {
-        max-width: 300px;
         font-size: 1rem; /* Ajusta o tamanho da fonte dos itens da lista */
         margin-bottom: 8px; /* Ajusta o espaçamento entre os itens da lista */
     }
