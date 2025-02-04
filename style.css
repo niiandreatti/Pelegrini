@@ -1335,6 +1335,8 @@ color: #C9C9C9;
         
         .footer-right p {
             margin-bottom: 10px;
+            text-decoration: none;
+            color: #fcf9f9;
         }
         .curriculo-btn{
             background: #467b9f;
@@ -1542,6 +1544,7 @@ color: #C9C9C9;
     font-weight: bold;
     margin-bottom: 20px;
     line-height: 1.2;
+    
 }
 
 .text-content p {
@@ -1579,10 +1582,12 @@ color: #C9C9C9;
 @media screen and (max-width: 768px) {
    
     .text-content h1 {
+        max-width: 300px;
         font-size: 1.8rem; /* Reduz o tamanho do título em telas pequenas */
     }
 
     .text-content p {
+        max-width: 300px;
         font-size: 0.9rem; /* Reduz o tamanho do texto para melhorar a leitura */
     }
 
@@ -1591,6 +1596,7 @@ color: #C9C9C9;
         font-size: 1rem; /* Reduz o tamanho da fonte do botão */
     }
     .text-content ul li {
+        max-width: 300px;
         font-size: 1rem; /* Ajusta o tamanho da fonte dos itens da lista */
         margin-bottom: 8px; /* Ajusta o espaçamento entre os itens da lista */
     }
@@ -1598,10 +1604,12 @@ color: #C9C9C9;
 
 @media screen and (max-width: 480px) {
     .text-content h1 {
+        max-width: 200px;
         font-size: 1.8rem; /* Tamanho do título ainda menor em telas muito pequenas */
     }
 
     .text-content p {
+        max-width: 200px;
         font-size: 0.9rem; /* Ajuste ainda maior no tamanho do texto */
     }
 
@@ -1610,6 +1618,7 @@ color: #C9C9C9;
         font-size: 1rem; /* Ajuste no tamanho da fonte */
     }
     .text-content ul li {
+        max-width: 200px;
         font-size: 0.9rem; /* Reduz o tamanho da fonte dos itens da lista */
         margin-bottom: 5px; /* Ajusta o espaçamento entre os itens da lista */
     }
