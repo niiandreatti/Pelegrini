@@ -501,6 +501,9 @@ body {
                 width: 100px;
                 height: 150px;
             }
+            .Contact .content p {
+                font-size: 2rem;
+            }
         }
         
         /* Animações */
